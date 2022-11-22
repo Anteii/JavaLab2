@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Books</title>
+    <link rel="stylesheet" th:href="@{/css/tables_css.css}">
+</head>
+<body>
+<h1>Таблица "Книги"</h1>
+
+<div>
+    <table id="books-table">
+        <tbody id="books-body">
+        </tbody>
+    </table>
+</div>
+<div>
+    <button id="addBook">Добавить книгу в ассортимент</button>
+</div>
+<br>
+<div>
+    <button id="returnOnMainPage">Вернуться на главную страницу</button>
+</div>
+
+</body>
+<script th:src="@{/js/books.js}"></script>
+</html>

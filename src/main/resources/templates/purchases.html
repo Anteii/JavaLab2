@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Orders</title>
+    <link rel="stylesheet" th:href="@{/css/tables_css.css}">
+</head>
+<body>
+<h1>Таблица "Заказы"</h1>
+
+<div>
+  <table id="purchases-table">
+    <tbody id="purchases-body">
+    </tbody>
+  </table>
+</div>
+<div>
+  <button id="addPurchase">Добавить заказ</button>
+</div>
+<br>
+<div>
+  <button id="returnOnMainPage">Вернуться на главную страницу</button>
+</div>
+<script th:src="@{/js/purchase.js}"></script>
+</body>
+</html>
